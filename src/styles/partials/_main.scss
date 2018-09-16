@@ -1,0 +1,126 @@
+// ===============
+// ABOUT, PORTFOLIO, SKILLS
+// ===============
+
+// ===============
+// ABOUT
+// ===============
+
+.aboutContainer {
+    margin: 125px auto;
+}
+
+.aboutPicInfoContainer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    .aboutPic {
+        // vertical-align: bottom;
+        margin-top: 3px;
+    }
+    .aboutInfo {
+        width: 30%;
+        margin-left: 10px;
+        li {
+            margin: 10px 0;
+        }
+        button {
+            width: 125px;
+            height: 30px;
+        }
+    }
+}
+
+// ===============
+// PORTFOLIO
+// ===============
+
+.portfolioContainer {
+    clear: both;
+
+    .sectionTitle {
+        width: 100%;
+    }
+
+    .projectCalc {
+        margin-top: 5px;
+    }
+}
+
+.portfolio {
+    // width: 35%;
+    // margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+
+    img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .portfolioInfo {
+        width: 35%;
+        margin-left: 10px;
+    }
+
+    .portfolioRight {
+        text-align: right;
+        margin-right: 10px;
+    }
+
+    .portfolioTool {
+        border-top: 1px solid $hightlightColour;
+        border-bottom: 1px solid $hightlightColour;
+        padding: 5px;
+    }
+}
+
+// ===============
+// SKILLS
+// ===============
+
+.skillsContainer {
+    width: 100%;
+    margin: 0 auto;
+    .skills {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 75%;
+        margin: 50px auto;
+    }
+}
+
+
+.eachSkill {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    // padding: 10px 10px 5px 10px;
+    filter: grayscale(100%);
+    &:hover {
+        filter: grayscale(0%); 
+        // box-shadow: 3px 3px 5px 6px #ccc;
+        // transform: scale(1.1, 1.1);
+        // transition: all 350ms ease-in-out;
+        // padding-top: 15px;
+    }
+
+    i {
+        font-size: 8rem;
+    }
+
+    img {
+        width: 49%;
+    }
+
+}
+
+// .firebaseLogo {
+//     // display: inline-block;
+
+//     width: 50%;
+
+// }

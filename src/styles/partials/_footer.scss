@@ -1,0 +1,64 @@
+
+// ===============
+// FIRST FOOTER
+// ===============
+
+.footerInfoContactContainer {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 35px 0;
+    .footerSection {
+        width: 30%;
+        margin: 10px;
+        .sectionTitle {
+            text-align: left;
+        }
+        a {
+            color: black;
+        }
+        i {
+            padding: 10px;
+            font-size: 1.5rem;
+            border: 1px solid black;
+            border-radius: 50%;
+            box-shadow: 2px 2px;
+            margin-right: 10px;
+            &:hover {
+            color: $hightlightColour;
+            border: 1px solid $hightlightColour;
+            transition: all 400ms ease-in-out;
+            }
+        }
+    }
+
+}
+
+// ===============
+// CONTACT
+// ===============
+
+label, input {
+    display: block;
+}
+
+input {
+    width: 110%;
+    height: 25px;
+}
+
+textarea {
+    width: 110%;
+}
+
+input[type=submit] {
+    width: 75%;
+}
+
+// ===============
+// SECOND FOOTER 
+// ===============
+
+.secondFooterContainer {
+    text-align: center;
+}

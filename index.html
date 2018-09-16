@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Fredericka+the+Great|Karla:400,400i,700,700i|Open+Sans+Condensed:300,700|Special+Elite"
+        rel="stylesheet">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css' integrity='sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ'
+        crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="public/styles/style.css">
+    <title>Jeanylyn's Portfolio</title>
+</head>
+<body>
+
+<!-- ===============
+HEADER W PARTICLE JS OR HERO IMAGE
+=============== -->
+
+    <header class="headerBackground" id="particles-js">
+        <!-- <div id="particles-js"></div> -->
+        <!-- THIS IS WHERE PARTICLE JS IS SUPPOSED TO BE -->
+        <!-- OR MAYBE A COOL PIC THAT YOU TOOK -->
+
+    <!-- ===============
+    NAV BAR
+    =============== -->
+
+        <nav class="headerNavContainer">
+            <ul class="headerNav">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#skills">Tool Box</a>
+                </li>
+                <li>
+                    <a href="#blog">Blog</a>
+                </li>
+                <li>
+                    <a href="#contact">Get In Touch</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- ===============
+HEADER W IMAGE OF ME OR SOCIAL LINKS
+=============== -->
+
+    <header class="headerInfoContainer">
+
+        <h1>Hi! My name's</h1>
+        <h2 class="nameFont">Jeanylyn Lopez</h2>
+        <!-- <h1>and I'm a</h1> -->
+        <h1>I'm a Front-end Web Developer</h1>
+        <!-- main image -->
+        <img src="src/assets/myBitmojiEdit.png" alt="" class="headerPic">
+
+        <!-- instagram -->
+        <a href="https://www.instagram.com/jeanylynlopez/" class="instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        
+        <!-- linkedin -->
+        <a href="https://www.linkedin.com/in/jeanylyn-lopez-bb718584/">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        
+        <!-- twitter -->
+        <a href="https://twitter.com/jeanylynlopez">
+            <i class="fab fa-twitter"></i>
+        </a>
+        
+        <!-- medium -->
+        <a href="https://medium.com/@jeanylynlopez">
+            <i class="fab fa-medium-m"></i>
+        </a>
+        
+        <!-- github -->
+        <a href="https://github.com/jeanylynlope">
+            <i class="fab fa-github-alt"></i>
+        </a>
+    </header>
+
+<!-- ===============
+MAIN WITH ABOUT, PORTFOLIO, SKILLS SECTION
+??? what do we think of that class name on main?
+=============== -->
+
+    <main class="aboutPortfolioSkills">
+    
+    <!-- ===============
+    ABOUT
+    =============== -->
+
+        <section id="about" class="aboutContainer">
+            <h1 class="sectionTitle">About Me</h1>
+            <section class="aboutPicInfoContainer">
+                <figure class="aboutPic clearfix">
+                    <img src="src/assets/myBitmojiWhiteWave.png" alt="">
+                </figure>
+                <div class="aboutInfo clearfix">
+                    <p>Hi! My name’s Jeanylyn and I’m a web developer with a background in journalism.</p>
+                    <p>I started my journey as a dev more than a year ago, taking part-time courses with HackerYou. Now, I’m just about to finish the college’s immersive nine-week bootcamp.</p>
+                    <p>Before the program, I was a digital editor for PMNA under the Canadian Press, where I was responsible for editing and posting
+                    stories on the Globe and Mail and Toronto Star’s website. I’m no stranger to fast-paced environments.</p>
+                    <p>When I’m not coding, you can find me watching a Raptors game, playing video games or exploring Toronto for great
+                    places to eat.</p>
+                    <!-- <ul>
+                        <li><span class="boldFont">Email:</span> jeanylynlopez@gmail.com</li>
+                        <li><span class="boldFont">Phone:</span> 647-628-9140</li>
+                    </ul> -->
+                    <button>Hire Me</button>
+                    <button>Resume</button>
+                </div>
+            </section>
+        </section>
+    
+    <!-- ===============
+    PORTFOLIO 
+    =============== -->
+
+        <section class="portfolioContainer" id="portfolio">
+            <h1 class="sectionTitle">Portfolio</h1>
+        <!-- ===============
+        PROJECT CALC 
+        =============== -->
+            <section class="portfolio projectCalc">
+                <div class="portfolioInfo portfolioRight">
+                    <h4>Basic Calculator</h4>
+                    <h3>React Web Application</h3>
+                    <p class="portfolioTool boldFont">React / Firebase</p>
+                    <p>Calculate basic arithmetic operations with addition, subtraction, multiplication and division. With the help of firebase,
+                    you can see past equations. And if you want to have a little more fun, you can make silly words by turning the calculator
+                    upside down.</p>
+                    <button>Live</button>
+                    <button>Github</button>
+                </div>
+                </figure>
+                    <img src="src/assets/computerPlain.png" alt="">
+                </figure>
+                
+            </section>
+
+        <!-- ===============
+        PROJECT ROBO 
+        =============== -->
+            <section class="portfolio portfolioRight projectRobo">
+                </figure>
+                    <img src="src/assets/computerRobo.png" alt="">
+                </figure>
+                <div class="portfolioInfo">
+                    <h4>Robo Trivia</h4>
+                    <h3>“Agency” API Group Project</h3>
+                    <p class="portfolioTool boldFont">React / Firebase / Restful API / Group collaboration</p>
+                    <p>Grab up to four of your smartest friends and test your knowledge with Robo Trivia. With the help of an API you’ll get 10
+                    questions based on a topic and difficulty of your choice that each of you will answer. Try your best to get on our leaderboard!</p>
+                    <button>Live</button>
+                    <button>Github</button>
+                </div>
+            </section>
+
+        <!-- ===============
+        PROJECT JEOPARDY
+        =============== -->
+        
+            <!-- <section class="portfolio projectJeopardy">
+                </figure>
+                <img src="src/assets/computerPlain.png" alt="">
+                </figure>
+                <div class="portfolioInfo">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, ipsa?</p>
+                    <p>HTML | CSS | JavaScript | jQuery | Responsive</p>
+                    <button>Live</button>
+                    <button>Github</button>
+                </div>
+            </section> -->
+
+        <!-- ===============
+        PROJECT RUPAUL
+        =============== -->
+
+            <section class="portfolio projectRupaul">
+                <div class="portfolioInfo portfolioRight">
+                    <h4>RuPaul Quiz</h4>
+                    <h3>jQuery Interactive Site</h3>
+                    <p class="portfolioTool boldFont">JavaScript / jQuery / CSS3 / HTML5 / Responsive</p>
+                    <p>Can you name all of the RuPaul’s drag race winners in under 60 seconds? Beat the timer and test your knowledge by naming
+                    all of her queens.</p>
+                    <button>Live</button>
+                    <button>Github</button>
+                </div>
+                </figure>
+                <img src="src/assets/computerPlain.png" alt="">
+                </figure>
+                
+            </section>
+        
+        
+
+        </section> 
+
+    <!-- ===============
+    SKILLS 
+    =============== -->
+
+        <section class="skillsContainer" id="skills">
+            <h1 class="sectionTitle">My Tool Box</h1>
+            <ul class="skills">
+                <li class="eachSkill">
+                    <i class="devicon-html5-plain colored"></i>
+                    <p>HTML</p>
+                </li>
+                <li class="eachSkill">
+                    <i class="devicon-css3-plain colored"></i>
+                    <p>CSS</p>
+                </li>
+                <li class="eachSkill">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <p>JavaScript</p>
+                </li>
+                <li class="eachSkill">
+                    <i class="devicon-jquery-plain colored"></i>
+                    <p>jQuery</p>
+                </li>
+                <li class="eachSkill">
+                    <i class="devicon-react-original colored"></i>
+                    <p>React</p>
+                </li>
+                <li class="eachSkill">
+                    <i class="devicon-sass-original colored"></i>
+                    <p>Sass</p>
+                </li>
+                <li class="eachSkill">
+                    <i class="devicon-gulp-plain colored"></i>
+                    <p>Gulp</p>
+                </li>
+                <!-- <li class="eachSkill">
+                    <i class="devicon-git-plain colored"></i>
+                    <p>Git</p>
+                </li> -->
+                <li class="eachSkill">
+                    <i class="devicon-github-plain colored"></i>
+                    <p>Github</p>
+                </li>
+                <!-- <li class="eachSkill">
+                    <img src="./src/assets/firebase.png" alt="" class="firebaseLogo">
+                    <p>Firebase</p>
+                </li> -->
+                
+                
+            </ul>
+        </section>
+
+    </main>
+
+<!-- ===============
+ASIDE W BLOG POSTS
+=============== -->
+
+    <aside>
+
+    <!-- ===============
+    BLOG POSTS
+    =============== -->
+
+        <section class="blogPostsContainer" id="blog">
+            <h1 class="sectionTitle">Blog Posts</h1>
+            <ul class="blogPosts">
+                <li class="eachBlogPost">
+                    <a href="https://medium.com/@jeanylynlopez/10-of-the-best-web-development-blogs-you-should-follow-256171db7906">
+                        <img src="src/assets/blog1.jpeg" alt="">
+                        <p>10 of the best web development blogs you should follow</p>
+                        <!-- <p>Read more <i class="fas fa-angle-double-right"></i></p> -->
+                    </a>
+                </li>
+                <li class="eachBlogPost">
+                    <a href="#">
+                        <img src="src/assets/blog1.jpeg" alt="">
+                        <p>How to use Regex to filter out garbage</p>
+                        <!-- <p>Read more <i class="fas fa-angle-double-right"></i></p> -->
+                    </a>
+                </li>
+                <!-- <li class="eachBlogPost">
+                    <a href="">
+                        <img src="https://picsum.photos/400/300/?random" alt="">
+                        <p>Advice to new HackerYou grads from teachers</p>
+                        <p>Read more <i class="fas fa-angle-double-right"></i></p>
+                    </a>
+                </li> -->
+            </ul>
+        </section>
+    </aside>
+
+<!-- ===============
+FOOTER FIRST
+=============== -->
+    <footer class="firstFooterContainer">
+        <!-- ===============
+        FOOTER INFO
+        =============== -->
+        <section class="footerInfoContactContainer">
+            <section class="footerSection">
+                <h1 class="sectionTitle">Let's Connect</h1>
+                <p>Want to give me a job, discuss a potential project or collaboration? Drop me a line!</p>
+                <ul>
+                    <li>
+                        <h3>Email</h3>
+                        <p>jeanylynlopez@gmail.com</p>
+                        <!-- <p><i class="fas fa-map-marker-alt"></i> Toronto</p> -->
+                        
+                    </li>
+                    <li>
+                        <h3>Phone</h3>
+                        <p>647-628-9140</p>
+                        <!-- <p><i class="fas fa-phone"></i> 647-628-9140</p> -->
+                    </li>
+                    <li>
+                        <h3>Location</h3>
+                        <p>Toronto, Ontario</p>
+                        <!-- <p><i class="fas fa-envelope"></i> jeanylynlopez@gmail.com</p> -->
+                    </li>
+                    <li class="footerSocial">
+                        <h3>Social</h3>
+                        
+                        <!-- github -->
+                        <a href="https://github.com/jeanylynlope">
+                            <i class="fab fa-github-alt"></i>
+                        </a>
+
+                        <!-- twitter -->
+                        <a href="https://twitter.com/jeanylynlopez">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        
+                        <!-- linkedin -->
+                        <a href="https://www.linkedin.com/in/jeanylyn-lopez-bb718584/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+
+                        <!-- medium -->
+                        <a href="https://medium.com/@jeanylynlopez">
+                            <i class="fab fa-medium-m"></i>
+                        </a>
+
+                        <!-- instagram -->
+                        <a href="https://www.instagram.com/jeanylynlopez/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- ===============
+            CONTACT ME
+            =============== -->
+            
+            <section class="footerSection" id="contact">
+                <form action="">
+                    <label for="">Name</label>
+                    <input type="text" name="" id="" placeholder="Name">
+
+                    <div class="emailSubjectInput">
+                        <label for="">Email</label>
+                        <input type="email" name="" id="" placeholder="Email">
+                        
+                        <label for="">Subject</label>
+                        <input type="text" name="" id="" placeholder="Subject">
+                    </div>
+                    
+                    <label for="">Message</label>
+                    <textarea name="" cols="30" rows="10"></textarea>
+                    <input type="submit">
+                </form>
+            
+            </section>
+        </section>
+    </footer>
+
+<!-- ===============
+FOOTER SECOND
+??? who is the designer?
+=============== -->
+
+    <footer class="secondFooterContainer">
+        <p>Copyright 2018 | All rights reserved by Jeanylyn Lopez | Designed by ???</p>
+    </footer>
+
+<!-- ===============
+SCRIPT FILES
+=============== -->
+    <script src="src/scripts/particles.js"></script>
+    <script src="src/scripts/particleApp.js"></script>
+    <script src="public/scripts/app.js"></script>
+
+</body>
+</html>

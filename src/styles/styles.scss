@@ -1,0 +1,59 @@
+// ===============
+// PARTIALS
+// ===============
+
+@import "partials/setup";
+@import "partials/utils";
+@import "partials/typography";
+@import "partials/header";
+@import "partials/main";
+@import "partials/aside";
+@import "partials/footer";
+
+// ===============
+// GENERAL
+// ===============
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+// ===============
+// SECTION
+// ===============
+
+section {
+    // margin: 50px 0;
+}
+
+.sectionTitle {
+    text-align: center;
+    // width: 100%;
+}
+
+// ===============
+// BUTTONS
+// ===============
+
+button {
+    border: 2px solid $hightlightColour;
+    color: $hightlightColour;
+    background-color:rgb(255, 255, 255);
+}
+
+button:hover {
+    background-color: $hightlightColour;
+    color: rgb(255, 255, 255);
+    transition: all 350ms ease-in-out;
+
+    // background-color: ;
+    // background: $hightlightColour;
+    // border: 4px solid $hightlightColour;
+    // font-weight: bold;
+    // letter-spacing: 1px;
+}
