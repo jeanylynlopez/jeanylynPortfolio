@@ -17,19 +17,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Karla', sans-serif;
 }
 
-p, a, i, li, label, input, button {
+p, a, i, li, label, input, textarea, button {
     font-size: 1.6rem;
     font-family: 'Karla', sans-serif;
 
 }
-
-// i {
-//     font-size: 1.5rem;
-// }
-
-// a {
-//     font-size: 1.5rem;
-// }
 
 .boldFont {
     font-weight: bold;
@@ -58,10 +50,7 @@ p, a, i, li, label, input, button {
 // ===============
 
 .headerNav {
-    a {
-        text-transform: uppercase;
-        // font-weight: bold;
-    }
+    text-transform: uppercase;
 }
 
 // ===============
@@ -70,9 +59,8 @@ p, a, i, li, label, input, button {
 
 .sectionTitle {
     color: indianred;
-    h1 {
-        font-size: 2.5rem;
-    }
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 // ===============
@@ -97,5 +85,20 @@ p, a, i, li, label, input, button {
         color: $hightlightColour;
     }
     
+}
 
+// ===============
+// CONTACT
+// ===============
+
+label {
+    font-weight: bold;
+}
+
+// ===============
+// CONTACT
+// ===============
+
+.secondFooterContainer p {
+    font-size: 1.2rem;
 }

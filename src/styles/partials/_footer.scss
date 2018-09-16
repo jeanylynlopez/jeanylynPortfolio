@@ -1,6 +1,6 @@
 
 // ===============
-// FIRST FOOTER
+// FIRST FOOTER 
 // ===============
 
 .footerInfoContactContainer {
@@ -9,14 +9,30 @@
     background-color: lightgray;
     padding: 35px 0;
     .footerSection {
-        width: 30%;
+        width: 35%;
         margin: 10px;
+
         .sectionTitle {
+            margin: 0;
             text-align: left;
         }
+
+        
+
+        .connectContainer {
+            p {
+                margin-top: -15px;
+            }
+        }
+
+        .footerSocial {
+            margin-top: 25px;
+        }
+
         a {
             color: black;
         }
+
         i {
             padding: 10px;
             font-size: 1.5rem;
@@ -31,7 +47,6 @@
             }
         }
     }
-
 }
 
 // ===============
@@ -42,17 +57,47 @@ label, input {
     display: block;
 }
 
+label {
+    // border-bottom: 1px solid $hightlightColour;
+    // border-top: 1px solid $hightlightColour;
+    color: $hightlightColour;
+}
+
+
 input {
-    width: 110%;
-    height: 25px;
+    width: 100%;
+    height: 30px;
+    background-color: lightgrey;
+    border: none;
+    border-bottom: 1px solid rgba(205,92,92,0.5);
+    margin: 5px 0;
+    padding: 2px 5px;
+    // border-radius: 25px;
+
 }
 
 textarea {
-    width: 110%;
+    width: 100%;
+    background-color: lightgrey;
+    border: none;
+    border-bottom: 1px solid rgba(205,92,92,0.5);
+    margin: 5px 0;
+    padding: 2px 5px;
+    // border-radius: 10px 25px;
 }
 
 input[type=submit] {
-    width: 75%;
+    // width: 75%;
+    width: 150px;
+    border: 1px solid $hightlightColour;
+    padding: 0;
+    color: $hightlightColour;
+    &:hover {
+        background-color: $hightlightColour;
+        color: white;
+        transition: all 400ms ease-in-out;
+
+    }
 }
 
 // ===============
@@ -61,4 +106,6 @@ input[type=submit] {
 
 .secondFooterContainer {
     text-align: center;
+    padding: 1px;
+    background-color: darkgrey;
 }
