@@ -109,3 +109,21 @@ input[type=submit] {
     padding: 1px;
     background-color: darkgrey;
 }
+
+
+// ===============
+// RESPONSIVE
+// ===============
+
+@media (max-width: 600px) {
+    .footerInfoContactContainer {
+        flex-direction: column;
+        .footerSection {
+            width: 75%;
+            margin: 15px auto;
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+}

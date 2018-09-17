@@ -90,6 +90,9 @@ canvas {
     text-align: center;
     display: block;
     margin-top: -210px;
+    h1, h2 {
+        margin: 0;
+    }
 
     .headerPic {
         position: relative;
@@ -127,30 +130,31 @@ canvas {
 
 .headerInfoContainer {
 
-    a .fa-instagram {
-        top: 296px;
-        right: 184px;
+    a .fa-medium-m {
+        top: 227px;
+        right: 9px;
     }
 
     a .fa-twitter{
-        top: 298px;
-        right: 75px;
+        top: 249px;
+        right: 52px;
     }
     
     a .fa-github-alt {
-        top: 305px;
-        right: 129px;
+        top: 255px;
+        right: 102px;
+    }
+
+    a .fa-instagram {
+        top: 245px;
+        right: 152px;
     }
 
     a .fa-linkedin-in {
-        top: 275px;
-        right: 229px;
+        top: 223px;
+        right: 196px;
     }
 
-    a .fa-medium-m {
-        top: 278px;
-        right: 29px;
-    }
 }
 
 // ==============
@@ -161,5 +165,8 @@ canvas {
     .headerNavContainer {
         display: none;
     } 
+    .headerInfoContainer {
+         margin-top: -240px;
+    }
 }
 

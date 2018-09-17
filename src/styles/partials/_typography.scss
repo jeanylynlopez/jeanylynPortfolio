@@ -33,16 +33,11 @@ p, a, i, li, label, input, textarea, button {
 
 
 .headerInfoContainer {
-    h1 {
-        line-height: 1px;
-    }
     .nameFont {
         font-family: 'Cabin Sketch', cursive;
         font-size: 6rem;
-        line-height: 1px;
         color: $hightlightColour;
     }
-    
 }
 
 // ===============
@@ -58,7 +53,7 @@ p, a, i, li, label, input, textarea, button {
 // ===============
 
 .sectionTitle {
-    color: indianred;
+    color: $hightlightColour;
     font-size: 3rem;
     font-weight: 700;
 }
@@ -77,7 +72,7 @@ p, a, i, li, label, input, textarea, button {
 
     h3 {
         font-size: 1.8rem;
-        line-height: 1rem;
+        // line-height: 1rem;
         // color: $hightlightColour;
     }
 
@@ -86,6 +81,13 @@ p, a, i, li, label, input, textarea, button {
     }
     
 }
+
+// ===============
+// CONTACT
+// ===============
+    .eachSkill {
+        font-weight: bold;
+    }
 
 // ===============
 // CONTACT
