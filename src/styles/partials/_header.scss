@@ -14,10 +14,11 @@
 }
 
 canvas {
-  margin-top: -70px;
-  height: 60vh;
-  width: 100%;
-//   z-index: -10px;
+    margin-top: -70px;
+    // height: 60vh;
+    // width: 100vh;
+    // background-color: lightgrey;
+    // z-index: -9px;
 }
 
 // ==============
@@ -29,6 +30,9 @@ canvas {
     display: flex;
     justify-content: flex-end;
     z-index: 10;
+    .fa-bars {
+        display: none;
+    }
     li {
         margin: 10px;
         padding: 0px 10px;
@@ -152,3 +156,10 @@ canvas {
 // ==============
 // RESPONSIVE
 // ==============
+
+@media (max-width: 575px) {
+    .headerNavContainer {
+        display: none;
+    } 
+}
+

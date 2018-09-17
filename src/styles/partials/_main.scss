@@ -7,23 +7,19 @@
 // ===============
 
 .aboutContainer {
-    margin: 125px auto;
+    margin-top: 125px;
 }
 
 .aboutPicInfoContainer {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
     .aboutPic {
-        // vertical-align: bottom;
-        margin-top: 3px;
+        margin-right: 5px;
+        margin-top:25px;
     }
     .aboutInfo {
-        width: 30%;
-        margin-left: 10px;
-        li {
-            margin: 10px 0;
-        }
+        width: 50%;
+        padding: 5px;
         button {
             width: 125px;
             height: 30px;
@@ -47,16 +43,28 @@
     }
 }
 
+.projectCalc, .projectRobo, .projectRupaul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .portfolio {
     // width: 35%;
     // margin: 0 10px;
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // align-content: center;
+    // vertical-align: center;
     margin: 50px 0;
 
     img {
         width: 30%;
         height: 30%;
+        // width: 100px;
+        // height: 100px;
+        // vertical-align: bottom;
     }
 
     .portfolioInfo {
@@ -73,7 +81,9 @@
         border-top: 1px solid $hightlightColour;
         border-bottom: 1px solid $hightlightColour;
         padding: 5px;
-        display: inline;
+        display: inline-block;
+        margin: 0;
+        // font-size: 1.6rem;
     }
 }
 
@@ -125,3 +135,47 @@
 //     width: 50%;
 
 // }
+
+// ==============
+// RESPONSIVE
+// ==============
+
+@media (max-width: 800px){
+    .projectRupaul, .projectCalc {
+        flex-direction: column-reverse;
+    }
+
+    .projectRobo {
+        flex-direction: column;
+    }
+
+    .portfolio {
+        img {
+            width: 45%;
+        }
+
+        .portfolioInfo {
+            text-align: center;
+            width: 65%;
+        }
+
+    }
+}
+
+@media (max-width: 600px) {
+
+    .headerNavContainer {
+        display: none;
+    }
+
+    .aboutPicInfoContainer {
+        .aboutPic {
+            // text-align: center;
+            display: none;
+        }
+        .aboutInfo {
+            width: 80%;
+            margin-top: -20px;
+        }
+    } 
+}
