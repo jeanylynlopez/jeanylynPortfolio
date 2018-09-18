@@ -13,12 +13,12 @@
     z-index: -10;
 }
 
+.headerInfoContainer {
+    // height: 50vh;
+}
+
 canvas {
     margin-top: -70px;
-    // height: 60vh;
-    // width: 100vh;
-    // background-color: lightgrey;
-    // z-index: -9px;
 }
 
 // ==============
@@ -29,7 +29,8 @@ canvas {
     margin-right: 10px;
     display: flex;
     justify-content: flex-end;
-    z-index: 10;
+    z-index: 1;
+    position: relative;
     .fa-bars {
         display: none;
     }
@@ -90,6 +91,7 @@ canvas {
     text-align: center;
     display: block;
     margin-top: -210px;
+    margin-bottom: 200px;
     h1, h2 {
         margin: 0;
     }
@@ -112,6 +114,7 @@ canvas {
         margin: 10px;   
         position: absolute;
         box-shadow: 2px 2px;
+        // margin-bottom: 100px;
         &:hover {
             color: $hightlightColour;
             border: 1px solid $hightlightColour;

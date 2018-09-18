@@ -10,18 +10,17 @@
         crossorigin='anonymous'>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="public/styles/style.css">
+    <link rel="shortcut icon" type="image/png" href="public/assets/faviconCode.png" />
+
     <title>Jeanylyn's Portfolio</title>
 </head>
 <body>
 
 <!-- ===============
-HEADER W PARTICLE JS OR HERO IMAGE
+HEADER W PARTICLE JS 
 =============== -->
-<!-- id="particles-js" -->
-    <header class="headerBackground" >
-        
-        <!-- THIS IS WHERE PARTICLE JS IS SUPPOSED TO BE -->
-        <!-- OR MAYBE A COOL PIC THAT YOU TOOK -->
+
+    <header class="headerBackground" id="particles-js" >
 
     <!-- ===============
     NAV BAR
@@ -49,8 +48,6 @@ HEADER W PARTICLE JS OR HERO IMAGE
                 </li> -->
             </ul>
         </nav>
-        <div id="particles-js"></div>
-
     </header>
 
 <!-- ===============
@@ -64,7 +61,7 @@ HEADER W IMAGE OF ME OR SOCIAL LINKS
         <!-- <h1>and I'm a</h1> -->
         <h1>I'm a Front-end Web Developer</h1>
         <!-- main image -->
-        <img src="src/assets/myBitmojiEdit250.png" alt="" class="headerPic">
+        <img src="public/assets/myBitmojiEdit250.png" alt="" class="headerPic">
 
         <!-- instagram -->
         <a href="https://www.instagram.com/jeanylynlopez/" class="instagram">
@@ -94,7 +91,6 @@ HEADER W IMAGE OF ME OR SOCIAL LINKS
 
 <!-- ===============
 MAIN WITH ABOUT, PORTFOLIO, SKILLS SECTION
-??? what do we think of that class name on main?
 =============== -->
 
     <main class="aboutPortfolioSkills">
@@ -107,7 +103,7 @@ MAIN WITH ABOUT, PORTFOLIO, SKILLS SECTION
             <h1 class="sectionTitle">About Me</h1>
             <section class="aboutPicInfoContainer clearfix">
                 <figure class="aboutPic clearfix">
-                    <img src="src/assets/myBitmojiWhiteWaveSquareSmall.png" alt="">
+                    <img src="public/assets/myBitmojiWhiteWaveSquareSmall.png" alt="">
                 </figure>
                 <div class="aboutInfo clearfix">
                     <p>Hi! My name’s Jeanylyn and I’m a web developer with a background in journalism.</p>
@@ -116,11 +112,7 @@ MAIN WITH ABOUT, PORTFOLIO, SKILLS SECTION
                     stories on the Globe and Mail and Toronto Star’s website. I’m no stranger to fast-paced environments.</p>
                     <p>When I’m not coding, you can find me watching a Raptors game, playing video games or exploring Toronto for great
                     places to eat.</p>
-                    <!-- <ul>
-                        <li><span class="boldFont">Email:</span> jeanylynlopez@gmail.com</li>
-                        <li><span class="boldFont">Phone:</span> 647-628-9140</li>
-                    </ul> -->
-                    <button>Hire Me</button>
+                    <a href="#contact"><button>Hire Me</button></a>
                     <button>Resume</button>
                 </div>
             </section>
@@ -137,17 +129,17 @@ MAIN WITH ABOUT, PORTFOLIO, SKILLS SECTION
         =============== -->
             <section class="portfolio portfolioColumn projectCalc">
                 <div class="portfolioInfo portfolioRight">
-                    <h4>Basic Calculator</h4>
+                    <h4>Calculator</h4>
                     <h3>React Web Application</h3>
                     <p class="portfolioTool boldFont">React / Firebase</p>
                     <p>Calculate basic arithmetic operations with addition, subtraction, multiplication and division. With the help of firebase,
                     you can see past equations. And if you want to have a little more fun, you can make silly words by turning the calculator
                     upside down.</p>
-                    <button>Live</button>
+                    <a href="http://jeanylynlopez.com/calculator/"><button>Live</button></a>
                     <a href="https://github.com/jeanylynlopez/jeanylyn_lopez_project5"><button>Github</button></a>
                 </div>
                 </figure>
-                    <img src="src/assets/computerPlain.png" alt="">
+                    <img src="public/assets/computerCalc.png" alt="">
                 </figure>
                 
             </section>
@@ -157,7 +149,7 @@ MAIN WITH ABOUT, PORTFOLIO, SKILLS SECTION
         =============== -->
             <section class="portfolio portfolioRight projectRobo">
                 </figure>
-                    <img src="src/assets/computerRobo.png" alt="">
+                    <img src="public/assets/computerRobo.png" alt="">
                 </figure>
                 <div class="portfolioInfo">
                     <h4>Robo Trivia</h4>
@@ -165,27 +157,11 @@ MAIN WITH ABOUT, PORTFOLIO, SKILLS SECTION
                     <p class="portfolioTool boldFont">React / Firebase / Restful API / Group collaboration</p>
                     <p>Grab up to four of your smartest friends and test your knowledge with Robo Trivia. With the help of an API you’ll get 10
                     questions based on a topic and difficulty of your choice that each of you will answer. Try your best to get on our leaderboard!</p>
-                    <button>Live</button>
+                    <a href="http://jeanylynlopez.com/roboTrivia/"><button>Live</button></a>
                     <a href="https://github.com/RoboTrivia/rosie_ricky_lyn_project6"><button>Github</button></a>
                     
                 </div>
             </section>
-
-        <!-- ===============
-        PROJECT JEOPARDY
-        =============== -->
-        
-            <!-- <section class="portfolio projectJeopardy">
-                </figure>
-                <img src="src/assets/computerPlain.png" alt="">
-                </figure>
-                <div class="portfolioInfo">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, ipsa?</p>
-                    <p>HTML | CSS | JavaScript | jQuery | Responsive</p>
-                    <button>Live</button>
-                    <button>Github</button>
-                </div>
-            </section> -->
 
         <!-- ===============
         PROJECT RUPAUL
@@ -198,16 +174,14 @@ MAIN WITH ABOUT, PORTFOLIO, SKILLS SECTION
                     <p class="portfolioTool boldFont">JavaScript / jQuery / CSS3 / HTML5 / Responsive</p>
                     <p>Can you name all of the RuPaul’s drag race winners in under 60 seconds? Beat the timer and test your knowledge by naming
                     all of her queens.</p>
-                    <button>Live</button>
+                    <a href="http://jeanylynlopez.com/rupaulQuiz/"><button>Live</button></a>
                     <a href="https://github.com/jeanylynlopez/jeanylyn_lopez_project03"><button>Github</button></a> 
                 </div>
                 </figure>
-                <img src="src/assets/computerPlain.png" alt="">
+                <img src="public/assets/computerRupaul.png" alt="">
                 </figure>
                 
             </section>
-        
-        
 
         </section> 
 
@@ -216,7 +190,7 @@ MAIN WITH ABOUT, PORTFOLIO, SKILLS SECTION
     =============== -->
 
         <section class="skillsContainer container" id="skills">
-            <h1 class="sectionTitle">My Tool Box</h1>
+            <h1 class="sectionTitle">Tool Box</h1>
             <ul class="skills">
                 <li class="eachSkill">
                     <i class="devicon-html5-plain colored"></i>
@@ -246,20 +220,10 @@ MAIN WITH ABOUT, PORTFOLIO, SKILLS SECTION
                     <i class="devicon-gulp-plain colored"></i>
                     <p>Gulp</p>
                 </li>
-                <!-- <li class="eachSkill">
-                    <i class="devicon-git-plain colored"></i>
-                    <p>Git</p>
-                </li> -->
                 <li class="eachSkill">
                     <i class="devicon-github-plain colored"></i>
                     <p>Github</p>
                 </li>
-                <!-- <li class="eachSkill">
-                    <img src="./src/assets/firebase.png" alt="" class="firebaseLogo">
-                    <p>Firebase</p>
-                </li> -->
-                
-                
             </ul>
         </section>
 
@@ -280,25 +244,16 @@ ASIDE W BLOG POSTS
             <ul class="blogPosts">
                 <li class="eachBlogPost">
                     <a href="https://medium.com/@jeanylynlopez/10-of-the-best-web-development-blogs-you-should-follow-256171db7906">
-                        <img src="src/assets/blog1.jpeg" alt="">
+                        <img src="public/assets/blog1.jpeg" alt="">
                         <p>10 of the best web development blogs you should follow</p>
-                        <!-- <p>Read more <i class="fas fa-angle-double-right"></i></p> -->
                     </a>
                 </li>
                 <li class="eachBlogPost">
                     <a href="#">
-                        <img src="src/assets/blog1.jpeg" alt="">
-                        <p>How to use Regex to filter out garbage</p>
-                        <!-- <p>Read more <i class="fas fa-angle-double-right"></i></p> -->
+                        <img src="public/assets/blog2.jpg" alt="">
+                        <p>Advice to junior devs from HackerYou teachers</p>
                     </a>
                 </li>
-                <!-- <li class="eachBlogPost">
-                    <a href="">
-                        <img src="https://picsum.photos/400/300/?random" alt="">
-                        <p>Advice to new HackerYou grads from teachers</p>
-                        <p>Read more <i class="fas fa-angle-double-right"></i></p>
-                    </a>
-                </li> -->
             </ul>
         </section>
     </aside>
@@ -317,22 +272,17 @@ FOOTER FIRST
                 <ul class="connectContainer">
                     <li>
                         <h3>Email</h3>
-                        <p>hello@jeanylynlopez.com</p>
-                        <!-- <p><i class="fas fa-map-marker-alt"></i> Toronto</p> -->
-                        
+                        <p>hello@jeanylynlopez.com</p>                        
                     </li>
                     <li>
                         <h3>Phone</h3>
                         <p>647-628-9140</p>
-                        <!-- <p><i class="fas fa-phone"></i> 647-628-9140</p> -->
                     </li>
                     <li>
                         <h3>Location</h3>
                         <p>Toronto, Ontario</p>
-                        <!-- <p><i class="fas fa-envelope"></i> jeanylynlopez@gmail.com</p> -->
                     </li>
                     <li class="footerSocial">
-                        <!-- <h3>Social</h3> -->
                         
                         <!-- github -->
                         <a href="https://github.com/jeanylynlopez">
@@ -367,7 +317,7 @@ FOOTER FIRST
             =============== -->
             
             <section class="footerSection" id="contact">
-                <form action="http://www.focuspocus.io/magic/(hello@jeanylynlopez.com)" method="POST">
+                <form action="" method="POST" name="contactForm">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name">
 
@@ -375,13 +325,11 @@ FOOTER FIRST
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email">
                         
-                        <!-- <label for="subject">Subject</label>
-                        <input type="text" name="" id="subject"> -->
                     </div>
                     
                     <label for="message">Message</label>
                     <textarea name="message" cols="15" id="message" rows="10"></textarea>
-                    <input type="submit">
+                    <input type="submit" class="submitForm">
                 </form>
             
             </section>
@@ -394,14 +342,15 @@ FOOTER SECOND
 =============== -->
 
     <footer class="secondFooterContainer">
-        <p>Copyright 2018 | All rights reserved by Jeanylyn Lopez</p>
+        <p>© Copyright 2018 | All rights reserved by Jeanylyn Lopez</p>
     </footer>
 
 <!-- ===============
 SCRIPT FILES
 =============== -->
-    <script src="src/scripts/particles.js"></script>
-    <script src="src/scripts/particleApp.js"></script>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+    <script src="public/scripts/particles.js"></script>
+    <script src="public/scripts/particleApp.js"></script>
     <script src="public/scripts/app.js"></script>
 
 </body>
